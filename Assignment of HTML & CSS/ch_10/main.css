@@ -1,0 +1,45 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+table, td, th{
+    border-collapse: collapse;
+    border: 1px solid green;
+}
+table td{
+    padding: 5px;
+}
+.yellow{
+    background-color: yellow;
+}
+.orange{
+    background-color: orangered;
+}
+
+.blue{
+    background-color: skyblue;
+}
+.purple{
+    background-color: purple;
+}
+.pink{
+    background-color: pink;
+}
+.brown{
+    background-color: #AD552A;
+}
+.green{
+    background-color: greenyellow;
+}
+.seagreen{
+    background-color: lightseagreen;
+}
+.lightblue{
+    background-color: #639FE0
+}
+.green1{
+    background-color: #1C9312;
+}
+.gray{
+    background-color: whitesmoke;
+}

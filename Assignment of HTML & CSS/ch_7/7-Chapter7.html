@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 7</title>
+</head>
+<body>
+    <h1>Chapter 7 Forms</h1>
+    <form action="https//:www.google.com" method="POST">
+        <fieldset>
+            <legend>Your Details:</legend>
+            <label for="name">Name:</label>
+            <input type="text" name="name">
+            <br>
+            <label for="name">Email:</label>
+            <input type="email" name="email">
+        </fieldset>
+        <fieldset>
+            <legend>Your Review:</legend>
+            <br>
+            <label for="about">How did you hear about us?</label>
+            <select name="platform" id="about">
+                <option value="Google">Google</option>
+                <option value="Facebook">Facebook</option>
+                <option value="Twitter">Twitter</option>
+                <option value="Instagram">Instagram</option>
+            </select>
+            <br>
+            <label for="">
+                Would you visit again?
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="feedback" value="yes" checked>
+                Yes
+            </label>
+            
+            <label>
+                <input type="radio" name="feedback" value="no">
+                No
+            </label>
+            
+            <label>
+                <input type="radio" name="feedback" value="maybe">
+                Maybe
+            </label>
+            <br>
+            <label for="comments">
+                Comments:
+            </label>
+            <br>
+            <textarea name="comment" cols="30" rows="5"></textarea>
+            <br>
+            <input type="checkbox" name="singup" checked>
+            <label for="singup">sing me up for email updates</label>
+            <p>
+            <input type="submit" value="Submit Review">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>

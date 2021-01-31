@@ -1,0 +1,390 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.add-bar{
+    height: 100%;
+    background-color: rgb(47, 47, 47);
+    padding: 10px;
+}
+.social, .contact{
+    float:left;
+}
+.social>i{
+    padding: 0px 5px;
+}
+.floatright{
+    float: right;
+}
+.floatleft{
+    float: left;
+}
+.clearfix{
+    clear: both;
+}
+.nav{
+    height: 102px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+.nav>.links>a{
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 40px 25px;
+    float: left;
+    font-size: 20px;
+}
+.nav>.links>a:hover{
+    border-bottom: 10px solid orange;
+}
+.one{
+    background-image: url(../images/main-img.jpg);
+    height: 700px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mainline1{
+    font-size: 100px;
+    font-weight: 500;
+}
+.oneinner1{
+    background-color: rgba(143, 143, 143, 0.438);
+    width: 100%;
+    margin: auto;
+    margin-top: 10%;
+    padding: 20px;
+
+}
+.subline1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.two{
+    width: 100%;
+    height: 600px;
+    background-color: whitesmoke;
+}
+.mainline{
+    font-size: 50px;
+    font-weight: 700;
+}
+.twoinner{
+    margin: 10px 30%;
+    padding: 20px;
+    text-align: center;
+
+}
+.subline{
+    font-size: 20px;
+    font-weight: 500;
+    width: 10%;
+}
+.two>.imgsection>.img>img{
+    width: 50%;
+}
+.two>.imgsection{
+    margin-top: 5%;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+}
+.two>.imgsection>.img{
+    float: left;
+    width: 18%;
+    margin-left: 2%;
+
+}
+.three{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 60px;
+}
+.lside, .rside{
+    width:47.5%;
+    float: left;
+    text-align: justify;
+    margin-left: 2%;
+}
+.button {
+    border-radius: 5px;
+    background-color: rgb(9, 179, 74);
+    border: none;
+    color: white;
+    padding: 20px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 20px;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgb(195, 195, 195);
+  }
+.four, .six{
+    width: 90%;
+    margin: auto;
+    height: 500px;
+    text-align: center;
+}
+.four .fourlower .services{
+    background-color: rgb(245, 245, 245);
+    width: 20%;
+    text-align: center;
+    padding: 18px;
+    float: left;
+    margin: 1%;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 10px rgb(221, 221, 221);
+    
+}
+.four .fourlower .services img{
+    position: relative;
+    margin-top: -100px;
+}
+.fourinner, .fiveinner{
+    margin: 30px 22%;
+    padding: 20px;
+    text-align: center;
+}
+.five .fivelower ul li{
+    list-style: none;
+    display: inline;
+    font-size: 1.3em;
+    font-weight: 500;
+    margin: 5px;
+    text-align: center;
+}
+.five{
+    background-color: rgb(36, 36, 36);
+    margin: auto;
+    height: 800px; 
+    color: rgb(255, 255, 255);
+}
+.fivelower {
+    width: 45%;
+    margin: auto;
+}
+.portwork {
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+.five .portwork .work{
+    width: 20%;
+    height: 30%;
+    background-color: aliceblue;
+    float: left;
+    overflow: hidden;
+}
+.five .portwork .work img{
+    width: 100%;
+}
+.processbar{
+    margin: auto;
+    height: 300px; 
+    color: rgb(255, 255, 255);
+}
+.connectionline{
+    position: relative;
+    top: 55%;
+    width: 80%;
+    margin: auto;
+    height: 6px;
+    background-color: rgb(165, 165, 165);
+    z-index: -1;
+}
+.six{
+    width: 90%;
+    margin: auto;
+    height: 400px;
+    text-align: center;
+}
+
+.six .processbar .processitem{
+    position: relative;
+    float: left;
+    width: 16.6%;
+    margin-top: 2%;
+
+}
+.six>.processbar>.processitem>.imgcont{
+    width: 50%;
+    height: 50%;
+    border: 5px solid rgb(165, 165, 165);
+    border-radius: 100%;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+}
+.six>.processbar>.processitem>img{
+    position: relative;
+    top: 25px;
+    width: 40px;
+}
+.seven{
+    width: 100%;
+    margin: auto;
+    height: auto;
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+    height: 550px;
+}
+.seven>.sevenlower{
+    width: 80%;
+    margin: 10px auto;
+}
+.seven>.sevenlower>.fb{
+    width: 49%;
+    height: 45%;
+    float: left;
+}
+.seven>.sevenlower>.fb>img{
+    width: 10%;
+}
+.seven>.sevenlower>.bottom>.dot{
+height: 20px;
+width: 20px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+margin: auto;
+}
+.eight{
+    width: 90%;
+    margin: auto;
+    height: 550px;
+    text-align: center;
+}
+.eight>.eightlower>.skills{
+    margin-top: 3%;
+    width: 25%;
+    float: left;
+}
+.eight>.eightlower>.skills>img{
+    width: 75%;
+}
+.nine{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(156, 204, 53);
+}
+.nineupper{
+    width: 50%;
+    margin: auto;
+    padding: 20px 0px;
+    font-size: 70px; 
+    font-weight: 650;
+    color: white;
+}
+
+.nine>.ninelower{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.nine>.ninelower>form>input{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 20px;
+    margin: 5px 20px;
+}
+.nine>.ninelower>form>input[type=button]{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline;
+    color: honeydew;
+    background-color: rgb(255, 208, 0);
+    border: 1px solid rgb(233, 210, 6);
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.nine>.ninelower>p{
+    width: 80%;
+    margin: 50px auto;
+    color: white;
+}
+.ten{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+.teninner{
+    width: 60%;
+    margin: auto;
+}
+.ten>.tenadress>.add, .no{
+    font-size: 30px;
+    padding: 10px;
+}
+.ten .tenadress .no i{
+    color: rgb(156, 204, 53);
+}
+.ten .tenadress .add i{
+    color: rgb(156, 204, 53);
+}
+footer{
+    color: white;
+    width: 100%;
+    height: 430px;
+    background-color: rgb(156, 204, 53);
+}
+footer>div{
+    float: left;
+}
+.detailss{
+    width: 30%;
+}
+.detailss>img{
+    margin-top: 100px;
+}
+.detailss>.int, .copy{
+    padding: 0px 190px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.service, .usefullinks{
+    margin-top: 75px;
+    width: 17%;
+    padding-left: 3%;
+    text-align: left;
+    border-right: 5px solid rgb(255, 188, 3);
+}
+.service ul, .usefullinks ul{
+    list-style: none;
+    line-height: 32px;
+    padding: 0px;
+    color: white;
+}
+.service ul li a,.usefullinks ul li a{
+    color: white;
+    font-size: large;
+}
+.contact{
+    width: 25%;
+    padding-left: 2%;
+    margin-top: 75px;
+    text-align: left;
+}
+.contact>i{
+    line-height: 40px;
+    margin-left: 5px;
+}
+.shadow{
+  box-shadow:0px 33px 17px -29px rgb(197, 197, 197);
+}
